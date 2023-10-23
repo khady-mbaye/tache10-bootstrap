@@ -29,7 +29,7 @@
 }
 header{
     height: 100vh;
-    background-image: url('images/bg_1.jpg.webp');
+    background-image: url('images/image4.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -154,14 +154,6 @@ main{
 #sec2 i{
     font-size: 40px;
 }
-@media (max-width:578px){
-    .box{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
 /**************************************************** section3 *********************************************/
 #sec3{
     /* background-color: #eeeeee; */
@@ -225,19 +217,7 @@ main{
 #sec6 a:hover{
     color: var(--primary-color);
 }
-/**************************************************** section7 *********************************************/
-#sec7{
-    /* background-color: #eeeeee; */
-}
-#sec7 .btn-2{
-    border: 1px solid var(--primary-color);
-    color: var(--primary-color);
-}
-#sec7 .btn-2:hover{
-    background-color: var(--primary-color);
-    color: var(--white-color);
 
-}
 /**************************************************** section8 *********************************************/
 .input-group input{
     background-color: var(--primary-color);

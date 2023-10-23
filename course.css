@@ -29,7 +29,7 @@
 }
 header{
     height: 100vh;
-    background-image: url('images/bg_1.jpg.webp');
+    background-image: url('images/image4.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -107,61 +107,7 @@ main{
     }  
 
 }
-/******************************** section1 **********************************/
-#sec1{
-    /* background-color: #eeeeee; */
-}
-#sec1 img{
-    height: 650px;
-}
-#sec1 .gray{
-    color: var(--gray-color);
-}
-#sec1 .vert{
-    color: var(--primary-color);
-}
-#sec1 .hover{
-    background-color: var(--white-color);
-   
-}
-#sec1 .hover:hover{
-    background-color: var(--primary-color);
-    color: var(--white-color);
-}
-#sec1 .hover:hover p {
-    background-color: var(--primary-color);
-    color: var(--white-color);
-}
-#sec1 .hover:hover h5 {
-    background-color: var(--primary-color);
-    color: var(--white-color);
-}
-#sec1 .hover:hover i {
-    background-color: var(--primary-color);
-    color: var(--white-color);
-}
-#sec1 i{
-    font-size: 50px;
-}
-/****************************************** section2 ****************************************************/
-#sec2{
-    width: 100%;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("images/bg_3.jpg.webp") ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-#sec2 i{
-    font-size: 40px;
-}
-@media (max-width:578px){
-    .box{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
+
 /**************************************************** section3 *********************************************/
 #sec3{
     /* background-color: #eeeeee; */
@@ -201,43 +147,7 @@ main{
     font-size: 70px;
 }
 
-/**************************************************** section5 *********************************************/
-#sec5{
-    /* background-color: #eeeeee; */
-}
-#sec5 img{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-}
-@media (max-width:992px){
-    #sec5 .normal{
-        display: none;
-    }
-}
-/**************************************************** section6 *********************************************/
-#sec6{
-    /* background-color: #eeeeee; */
-}
-#sec6 a{
-    color: black;
-}
-#sec6 a:hover{
-    color: var(--primary-color);
-}
-/**************************************************** section7 *********************************************/
-#sec7{
-    /* background-color: #eeeeee; */
-}
-#sec7 .btn-2{
-    border: 1px solid var(--primary-color);
-    color: var(--primary-color);
-}
-#sec7 .btn-2:hover{
-    background-color: var(--primary-color);
-    color: var(--white-color);
 
-}
 /**************************************************** section8 *********************************************/
 .input-group input{
     background-color: var(--primary-color);
